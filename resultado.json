@@ -1,0 +1,97 @@
+{
+  "emisor": {
+    "nombre": "MING FU S.A.C.",
+    "ruc": "20565526180",
+    "direccion": "ACAL. AUGUSTO TAMAYO VARGAS NRO. 158 URB. SANTA CRUZ LIMA - LIMA - SAN ISIDRO"
+  },
+  "tipo_comprobante": "Boleta de Venta Electrónica",
+  "serie_numero": "B004-00043505",
+  "fecha_emision": "2025-11-07T14:02:55",
+  "items": [
+    {
+      "descripcion": "AEROPUERTO ESPECIAL (MENU)",
+      "cantidad": 2,
+      "precio_unitario": 25.0,
+      "total": 50.0
+    },
+    {
+      "descripcion": "AGUA",
+      "cantidad": 1,
+      "precio_unitario": 4.0,
+      "total": 4.0
+    },
+    {
+      "descripcion": "CHAUFA ESPECIAL (MENU)",
+      "cantidad": 1,
+      "precio_unitario": 22.0,
+      "total": 22.0
+    },
+    {
+      "descripcion": "CHIJAU KAY 2 SABORES CON CHAUFA(MENU)",
+      "cantidad": 1,
+      "precio_unitario": 26.0,
+      "total": 26.0
+    },
+    {
+      "descripcion": "CHIJUAKAY(MENU)",
+      "cantidad": 1,
+      "precio_unitario": 21.0,
+      "total": 21.0
+    },
+    {
+      "descripcion": "GASEOSA/600",
+      "cantidad": 1,
+      "precio_unitario": 5.0,
+      "total": 5.0
+    },
+    {
+      "descripcion": "GASEOSA/600",
+      "cantidad": 8,
+      "precio_unitario": 5.0,
+      "total": 40.0
+    },
+    {
+      "descripcion": "KAMLU WANTAN (MENU)",
+      "cantidad": 4,
+      "precio_unitario": 23.0,
+      "total": 92.0
+    },
+    {
+      "descripcion": "LOMO SALTADO CON CHAUFA (MENU)",
+      "cantidad": 1,
+      "precio_unitario": 22.0,
+      "total": 22.0
+    },
+    {
+      "descripcion": "SOPA FUCHIFU",
+      "cantidad": 1,
+      "precio_unitario": 20.0,
+      "total": 20.0
+    },
+    {
+      "descripcion": "TALLARIN CON POLLO(MENU)",
+      "cantidad": 1,
+      "precio_unitario": 20.0,
+      "total": 20.0
+    },
+    {
+      "descripcion": "TAPER",
+      "cantidad": 1,
+      "precio_unitario": 1.0,
+      "total": 1.0
+    },
+    {
+      "descripcion": "TORTILLA DE VERDURA(MENU)",
+      "cantidad": 1,
+      "precio_unitario": 18.0,
+      "total": 18.0
+    }
+  ],
+  "resumen": {
+    "subtotal": 288.98,
+    "igv": 52.02,
+    "icbper": 0.0,
+    "total": 341.0
+  },
+  "forma_pago": "Contado"
+}

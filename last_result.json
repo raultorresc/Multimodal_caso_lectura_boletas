@@ -1,0 +1,61 @@
+{
+  "ruc": "20605526180",
+  "fecha_emision": "2023-11-07T14:02:55",
+  "cliente": {
+    "ruc_dni": " ",
+    "direccion": " "
+  },
+  "items": [
+    {
+      "descripcion": "ARROZ AEROPUERTO (MENU)",
+      "cantidad": 1.0,
+      "precio_unitario": 24.5,
+      "subtotal": 24.5
+    },
+    {
+      "descripcion": "CHAUPA (MENU)",
+      "cantidad": 1.0,
+      "precio_unitario": 25.0,
+      "subtotal": 25.0
+    },
+    {
+      "descripcion": "AGUA",
+      "cantidad": 1.0,
+      "precio_unitario": 2.0,
+      "subtotal": 2.0
+    },
+    {
+      "descripcion": "GASEOSA",
+      "cantidad": 2.0,
+      "precio_unitario": 3.0,
+      "subtotal": 6.0
+    },
+    {
+      "descripcion": "CHICHA KAY 2",
+      "cantidad": 2.0,
+      "precio_unitario": 3.5,
+      "subtotal": 7.0
+    },
+    {
+      "descripcion": "GRES GASEOSA 3 ML",
+      "cantidad": 2.0,
+      "precio_unitario": 13.0,
+      "subtotal": 26.0
+    },
+    {
+      "descripcion": "SECCHA",
+      "cantidad": 2.0,
+      "precio_unitario": 8.5,
+      "subtotal": 17.0
+    },
+    {
+      "descripcion": "TORTILLA DE VERDURA",
+      "cantidad": 1.0,
+      "precio_unitario": 12.0,
+      "subtotal": 12.0
+    }
+  ],
+  "base_imponible": 288.0,
+  "igv": 51.84,
+  "importe_total": 341.84
+}

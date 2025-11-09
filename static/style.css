@@ -1,0 +1,9 @@
+body { font-family: system-ui, Arial, sans-serif; max-width: 900px; margin: 20px auto; }
+h2 { margin-bottom: 10px; }
+.card { border: 1px solid #ddd; padding: 16px; border-radius: 10px; margin-bottom: 18px; }
+#json-view { background: #f9f9f9; padding: 12px; border-radius: 8px; max-height: 300px; overflow: auto; }
+#chat-box { border: 1px solid #eee; padding: 10px; height: 220px; overflow: auto; background: #fdfdfd; border-radius: 8px; margin-bottom: 10px; }
+button { padding: 8px 12px; border-radius: 8px; border: 1px solid #ccc; cursor: pointer; }
+button:hover { background: #f0f0f0; }
+.row { display: flex; gap: 10px; align-items: center; margin-top: 8px; }
+#audio-answer { margin-top: 10px; white-space: pre-wrap; }

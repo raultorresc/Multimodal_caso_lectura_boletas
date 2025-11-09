@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <title>Chat de Boleta Peruana (con Audio)</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <h2>Chat de Boleta Peruana (con Audio)</h2>
+
+  <section class="card">
+    <h3>1) Subir imagen de boleta (JPG/PNG)</h3>
+    <form id="upload-form">
+      <input type="file" id="file" name="file" accept="image/*" required />
+      <button type="submit">Extraer</button>
+    </form>
+    <pre id="json-view"></pre>
+    <div id="val-msg"></div>
+  </section>
+
+  <section class="card">
+    <h3>2) Preguntar por texto</h3>
+    <div id="chat-box"></div>
+    <form id="chat-form">
+      <input type="text" id="msg" placeholder="Ej: ¿Cuál es el total?" required/>
+      <button>Enviar</button>
+    </form>
+  </section>
+
+  <section class="card">
+    <h3>3) Preguntar por audio 🎙️</h3>
+    <div id="audio-status">Pulsa "Grabar" para hacer tu pregunta por voz.</div>
+    <div class="row">
+      <button id="btn-record">🎙️ Grabar</button>
+      <button id="btn-stop" disabled>■ Detener</button>
+      <button id="btn-send" disabled>Enviar audio</button>
+    </div>
+    <audio id="player" controls style="display:none;"></audio>
+    <div id="audio-answer"></div>
+  </section>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>
